@@ -1,1 +1,23 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.card {
+  width: 150px;
+  height: 220px;
+}
+
+.card-number {
+  font-size: 64px;
+}
+
+#cardSuit,
+#cardSuitRotated {
+  font-size: 34px;
+}
+
+.card-rotated {
+  transform: rotate(180deg);
+}
