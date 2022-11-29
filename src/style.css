@@ -13,6 +13,14 @@ body {
   font-size: 64px;
 }
 
+.clr-red {
+  color: red;
+}
+
+.clr-black {
+  color: black;
+}
+
 #cardSuit,
 #cardSuitRotated {
   font-size: 34px;

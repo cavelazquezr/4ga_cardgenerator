@@ -46,7 +46,7 @@ const render = () => {
     cardSuitMap[Math.floor(Math.random() * cardSuitMap.length)];
   cardSuitRotated.innerHTML = cardSuit.innerHTML;
 
-  if (cardSuit.innerHTML == "♦" || cardSuit.innerHTML == "♥") {
+  if (cardSuit.innerHTML === "♦" || cardSuit.innerHTML === "♥") {
     cardSuit.style.color = "red";
     cardSuitRotated.style.color = "red";
     cardNumber.style.color = "red";
